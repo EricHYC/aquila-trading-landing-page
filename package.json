@@ -2,6 +2,7 @@
   "name": "astro-storyblok-finance-starter",
   "type": "module",
   "version": "0.0.1",
+  "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

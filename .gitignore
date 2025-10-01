@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# HTTPS Proxy certificates
+localhost.pem
+localhost-key.pem
